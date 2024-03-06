@@ -1,14 +1,15 @@
+pipeline {
   agent any
   stages {
     stage('Build') {
       steps {
-        sh 'g++ -o output main/main.cpp'
+        sh 'g++ -o task5 main/main.cpp'
         echo 'Build Successful!'
       }
     }
     stage('Test') {
       steps {
-        sh './output'
+        sh './task5'
         echo 'Test Successful!'
       }
     }

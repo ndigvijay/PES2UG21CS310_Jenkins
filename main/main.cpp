@@ -4,5 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout<<"this is task 5";
+    cout<<"yo this is ndv";
+    cout<<"this is task 5\n";
 }
